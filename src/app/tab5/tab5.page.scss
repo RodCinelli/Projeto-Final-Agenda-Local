@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+ion-content {
+    --ion-background-color: #201E1E;
+}
+
+ion-row {
+    background-color: #201E1E;
+}
+
+ion-item {
+    --background: #373636;
+    border-radius: 8px;
+    margin: 0 0;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ion-thumbnail {
+    --size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+
+.produto-info {
+    color: #fff;
+    margin-left: 10px;
+}
+
+.quantidade {
+    color: #32CD32;
+}
+
+.preco {
+    color: #32CD32;
+    margin-left: 25px;
+}
+
+.button-lixeira {
+    color: #ff0000;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button-lixeira:hover, .button-lixeira:focus {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #ff0000;
+}
+
+.total-carrinho {
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.carrinho-vazio {
+    margin-top: 60%;
+    text-align: center; /* Centraliza o texto */
+    color: #fff; /* Define a cor do texto */
+    font-size: 1.5em; /* Aumenta o tamanho da fonte */
+    padding: 20px; /* Adiciona um pouco de espaço ao redor do texto */
+}
+
+.carrinho-vazio p {
+    margin-bottom: 30px; /* Adiciona um pouco de espaço abaixo do parágrafo */
+}
+
+#nome {
+    background-color: #4b0082;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 20px;
+    margin: 10px auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 90%;
+    display: block;
+    margin-top: 20px;
+}
+
+.custom-button ion-icon {
+    color: #fff;
+    font-size: 1.8em; /* Ajusta o tamanho do ícone */
+    margin-bottom: 10px;
+}
+
+.finalizar-compra {
+    --background: #4CAF50;
+    --color: white;
+    font-weight: bold;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+}
+
+.finalizar-compra:hover {
+    --background: #45a049;
+    box-shadow: 0 6px 14px 0 rgba(0, 0, 0, 0.24);
+    transform: scale(1.05);
+}

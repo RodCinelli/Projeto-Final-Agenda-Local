@@ -1,0 +1,37 @@
+.tabs {
+    --ion-background-color: #201E1E;
+}
+
+.icone {
+    color: #B05DFF;
+    font-size: 1.9em; /* Aumenta o tamanho do ícone */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.icone:hover, .icone:focus {
+    transform: scale(1.2); /* Aumenta ligeiramente mais o ícone ao passar o mouse */
+    box-shadow: 0 0 8px #B05DFF;
+}
+
+ion-label {
+    color: #B05DFF; /* Cor do texto dos ícones */
+    font-size: 1em; /* Aumenta o tamanho da letra */
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    transition: text-shadow 0.3s ease;
+}
+
+ion-label:hover, ion-label:focus {
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+ion-tab-bar {
+    border: 3px solid #B05DFF;
+    border-radius: 0px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Mantendo a cor dos ícones consistente */
+ion-icon {
+    color: inherit;
+}

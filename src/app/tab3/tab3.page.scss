@@ -1,0 +1,169 @@
+ion-content{
+    --ion-background-color: #201E1E;
+}
+
+ion-row{
+    background-color: #201E1E;
+}
+
+ion-item {
+    --background: #373636;
+    /* Cor de fundo do item */
+    border-radius: 8px;
+    /* Cantos arredondados */
+    margin: 0 0;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Aumentando o tamanho da thumbnail para destacar as ofertas */
+ion-thumbnail {
+    --size: 170px;
+    /* Tamanho maior para ofertas */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Garantindo que a imagem se ajuste ao novo tamanho da thumbnail */
+img {
+    max-width: 170%;
+    max-height: 170%;
+    height: auto;
+}
+
+.product-controls {
+    display: flex;
+    align-items: center;
+    color: #32CD32; /* Esta é a tonalidade de verde que você mencionou */
+
+    ion-button {
+        margin: 0 5px;
+        --padding-start: 0;
+        --padding-end: 0;
+    }
+
+    ion-text {
+        padding: 0 10px;
+    }
+}
+
+.product-controls ion-button {
+    color: #fff; /* Cor do ícone, se necessário */
+}
+
+.produto-info {
+    color: #fff; /* Cor do texto, se necessário */
+}
+
+/*
+.produto-info .preco-original {
+    margin-top: 1em; 
+    display: block; 
+}
+*/
+
+.custom-button {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Suaviza as transições para transformação e sombra */
+}
+
+.custom-button ion-icon {
+    font-size: 1.8em; /* Ajusta o tamanho do ícone */
+    transition: color 0.3s ease;
+    /* Suaviza a transição da cor */
+}
+
+.custom-button:hover, .custom-button:focus {
+    transform: scale(1.1); /* Aumenta ligeiramente o tamanho do botão */
+    box-shadow: 0 0 10px #fff; /* Adiciona uma sombra para destaque */
+}
+
+.custom-button:hover ion-icon, .custom-button:focus ion-icon {
+    color: #fff; /* Muda a cor do ícone ao passar o mouse */
+}
+
+.campo-pesquisa {
+    text-align: center;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1); // Fundo translúcido
+    border-radius: 5px; // Cantos arredondados
+    padding: 5px; // Espaço interno
+    font-size: 16px; // Tamanho maior da fonte
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); // Sombra para destaque
+    transition: box-shadow 0.3s ease, background-color 0.3s ease; // Animação ao focar
+
+    &:focus {
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3); // Sombra maior ao focar
+        background-color: rgba(255, 255, 255, 0.2); // Fundo um pouco mais opaco ao focar
+    }
+
+    &::placeholder {
+        color: #ccc; // Cor do placeholder
+        font-style: italic; // Estilo do placeholder
+    } 
+}
+
+.campo-pesquisa::after {
+    content: '🔍'; /* Substitua pelo ícone de sua preferência */
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    /* Estilos adicionais para o ícone */
+}
+
+#nome {
+    background-color: #4b0082;
+    /* ou qualquer outra cor que você esteja usando */
+    color: #fff;
+    /* Cor do texto */
+    font-size: 24px;
+    /* Tamanho da fonte */
+    font-weight: bold;
+    /* Peso da fonte */
+    text-align: center;
+    /* Alinhamento do texto */
+    padding: 5px 20px;
+    /* Reduzir o espaçamento interno (vertical horizontal) */
+    margin: 10px auto;
+    /* Margem superior e inferior reduzida, centralizado horizontalmente */
+    border-radius: 4px;
+    /* Borda suavemente arredondada */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Sombra sutil para profundidade */
+    max-width: 90%;
+    /* Ajuste para a largura máxima que o elemento deve ocupar */
+    display: block;
+    /* Isso vai permitir que 'margin: auto' funcione para centralizar horizontalmente */
+    margin-top: 20px;
+}
+
+/* Estilos específicos para os preços na aba de ofertas */
+
+.preco-e-desconto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.preco-original {
+    text-decoration: line-through;
+    color: #ff0000;
+    /* Cor indicando preço mais alto/original */
+}
+
+.preco-desconto {
+    color: #008000;
+    /* Cor para destacar o preço com desconto */
+    font-weight: bold;
+}
+
+.desconto-texto {
+    background-color: #32CD32; /* Um verde claro para o fundo do texto de desconto */
+    color: white;
+    padding: 2px 8px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 10px; /* Espaçamento à esquerda do texto do desconto */
+}

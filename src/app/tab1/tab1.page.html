@@ -1,0 +1,87 @@
+<ion-content>
+  <ion-header>
+    <div class="logo-container">
+      <a href="/tabs/tab1"><img class="logo" src="assets/logo_agendalocal.png"></a>
+      <ion-icon name="person-circle-outline" class="login-icon" (click)="abrirLogin()"></ion-icon>
+    </div>
+    <div class="barra"></div>
+  </ion-header>
+
+  <h1>Agenda Local</h1>
+
+  <swiper-container class="mySwiper" [autoplay]="{delay: 3000}">
+    <swiper-slide><img src="assets/capa.png" alt="AgendaLocal"></swiper-slide>
+    <swiper-slide><a href="/tabs/tab2"><img src="assets/swiper/swiper2.png" alt="Algum de nossos produtos"></a></swiper-slide>
+    <swiper-slide><a href="/premium-modal"><img src="assets/swiper/swiper3.png" alt="Algum de nossos produtos"></a></swiper-slide>
+  </swiper-container>
+
+  <h2>Eventos em Destaque</h2>
+
+  <swiper-container pagination="true">
+    <swiper-slide>
+      <ion-col>
+        <ion-card>
+          <img src="assets/produtos/produto7.png" />
+          <ion-card-header>
+            <ion-card-title>McCartney</ion-card-title>
+            <ion-card-subtitle>Show</ion-card-subtitle>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+
+      <ion-col>
+        <ion-card>
+          <img src="assets/produtos/produto29.png" />
+          <ion-card-header>
+            <ion-card-title>Carna Rildy</ion-card-title>
+            <ion-card-subtitle>Festival</ion-card-subtitle>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+    </swiper-slide>
+
+    <swiper-slide>
+      <ion-col>
+        <ion-card>
+          <img src="assets/produtos/produto3.png" />
+          <ion-card-header>
+            <ion-card-title>Ivete Sangalo</ion-card-title>
+            <ion-card-subtitle>Show</ion-card-subtitle>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+
+      <ion-col>
+        <ion-card>
+          <img src="assets/produtos/produto2.png" />
+          <ion-card-header>
+            <ion-card-title>Ed Sheeran</ion-card-title>
+            <ion-card-subtitle>Show</ion-card-subtitle>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+    </swiper-slide>
+
+    <swiper-slide>
+      <ion-col>
+        <ion-card>
+          <img src="assets/produtos/produto1.png" />
+          <ion-card-header>
+            <ion-card-title>ImagineDragons</ion-card-title>
+            <ion-card-subtitle>Show</ion-card-subtitle>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+
+      <ion-col>
+        <ion-card>
+          <img src="assets/produtos/produto27.png" />
+          <ion-card-header>
+            <ion-card-title>Privilege</ion-card-title>
+            <ion-card-subtitle>Festival</ion-card-subtitle>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+    </swiper-slide>
+  </swiper-container>
+</ion-content>
