@@ -44,4 +44,4 @@ Após instalar o projeto, você pode executá-lo localmente utilizando o comando
 
 ## Status do Projeto
 
-Status atual do projeto: Em Desenvolvimento.
+Status atual do projeto: Finalizado.
