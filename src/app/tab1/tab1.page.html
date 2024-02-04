@@ -1,15 +1,16 @@
-<ion-content>
-  <ion-header>
+<ion-header>
+  <ion-toolbar>
     <div class="logo-container">
       <a href="/tabs/tab1"><img class="logo" src="assets/logo_agendalocal.png"></a>
       <span class="login-text">Login</span>
       <ion-icon name="person-circle-outline" class="login-icon" (click)="abrirLogin()"></ion-icon>
     </div>
     <div class="barra"></div>
-  </ion-header>
+  </ion-toolbar>
+</ion-header>
 
+<ion-content>
   <h1>Agenda Local</h1>
-
   <swiper-container class="mySwiper" [autoplay]="{delay: 3000}">
     <swiper-slide><img src="assets/capa.png" alt="AgendaLocal"></swiper-slide>
     <swiper-slide><a href="/tabs/tab2"><img src="assets/swiper/swiper2.png" alt="Algum de nossos produtos"></a></swiper-slide>
@@ -18,7 +19,6 @@
 
   <h2>Eventos em Destaque</h2>
 
-  <ion-content>
     <swiper-container pagination="true">
       <swiper-slide>
         <ion-col>
