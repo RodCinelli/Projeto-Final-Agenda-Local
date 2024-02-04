@@ -59,7 +59,7 @@ h2{
 
 .login-text {
     font-size: 18px;
-    margin-left: 180px;
+    margin-left: 150px;
 }
 
 .mySwiper {
@@ -120,6 +120,7 @@ swiper-slide {
     flex-wrap: wrap;
 }
 
+/*
 .styled-text {
     font-family: 'Arial', sans-serif;
     text-align: center;
@@ -129,22 +130,24 @@ swiper-slide {
 }
 
 .about-subtitle {
-    margin-top: 0.5em; /* remove a margem superior */
+    margin-top: 0.5em; // remove a margem superior
 }
-
 
 .about-section {
-    border: 1px solid #4b0082; /* borda destacada */
-    background-color: #201E1E; /* fundo suave */
-    padding: 20px; /* espaço interno para o texto não ficar muito perto da borda */
-    margin: 80px 20px; /* espaço externo para separar a seção do restante do conteúdo */
-    border-radius: 10px; /* borda arredondada */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); /* sombra ao redor da seção */
-    transition: all 0.3s ease-in-out; /* transição suave para qualquer mudança de estilo */
+    border: 1px solid #4b0082; // borda destacada
+    background-color: #201E1E; // fundo suave
+    padding: 20px; // espaço interno para o texto não ficar muito perto da borda
+    margin: 80px 20px; // espaço externo para separar a seção do restante do conteúdo
+    border-radius: 10px; // borda arredondada
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); // sombra ao redor da seção
+    transition: all 0.3s ease-in-out; // transição suave para qualquer mudança de estilo
 
     &:hover {
-      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); /* sombra maior quando o mouse passa por cima */
-      transform: scale(1.02); /* ligeiro aumento de tamanho quando o mouse passa por cima */
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); // sombra maior quando o mouse passa por cima
+      transform: scale(1.02); // ligeiro aumento de tamanho quando o mouse passa por cima
     }
 }
+*/
+
+
 
