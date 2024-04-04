@@ -1,4 +1,4 @@
-ion-content{
+ion-content {
     --ion-background-color: #201E1E;
 }
 
@@ -44,19 +44,21 @@ ion-row {
 
 ion-item {
     color: #FFF;
-font-family: Inter;
-font-size: 12px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-width: 111%;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 99%;
     --background: #373636;
     /* Cor de fundo semi-transparente */
     /* Cor de fundo do item */
     --border-radius: 8px;
     /* Cantos arredondados */
-    --margin-bottom: 10px;
-    /* Espaçamento entre os itens */
+    margin-top: 10px;
+    /* Espaçamento abaixo do item */
+    margin-left: 23px;
+    /* Espaçamento à esquerda do item */
     --padding-start: 20px;
     /* Espaçamento interno à esquerda */
     --padding-end: 20px;
@@ -100,4 +102,3 @@ ion-icon {
     margin-right: 8px;
     /* Espaçamento à direita dos ícones */
 }
-
