@@ -35,12 +35,9 @@ Para instalar e configurar o projeto localmente, siga estes passos:
 
 Após instalar o projeto, você pode executá-lo localmente utilizando o comando `ionic serve`. O aplicativo estará disponível em seu navegador.
 
-## Autores
+## Autor
 
 - Rodrigo Cinelli
-- Edson Lima
-- Pedro Valentim
-- Guilherme Ferreira
 
 ## Status do Projeto
 
